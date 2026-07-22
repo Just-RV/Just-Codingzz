@@ -176,3 +176,44 @@
 //   n % 2 === 0;
 // }
 // console.log(isEven(4));
+
+const fruits = ["apple", "banana", "mango"];
+
+fruits[0];        // "apple"
+fruits[2];        // "mango"
+fruits.length;     // 3
+fruits[fruits.length - 1];   // "mango" — last item, common pattern
+
+const nums = [1, 2, 3];
+nums.push(4);      // works fine — array itself isn't reassigned
+nums = [5, 6];      // ERROR — this reassigns the variable, blocked by const
+
+const arr = [1, 2, 3];
+
+arr.push(4);        // adds to end → [1,2,3,4]
+arr.pop();           // removes from end → [1,2,3], returns removed item (4)
+arr.unshift(0);      // adds to start → [0,1,2,3]
+arr.shift();          // removes from start → [1,2,3], returns removed item (0)'
+
+const nums = [1, 2, 3];
+nums.forEach(n => console.log(n * 2));   // logs 2, 4, 6 — nothing returned/stored
+
+const doubled = nums.map(n => n * 2);   // [2, 4, 6] — nums itself unchanged
+
+const evens = nums.filter(n => n % 2 === 0);   // [2]
+
+const found = nums.find(n => n > 1);   // 2
+
+const bad = nums.forEach(n => n * 2);   // bad is undefined — forEach doesn't return anything useful
+const good = nums.map(n => n * 2);       // good is [2, 4, 6]
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+for (const fruit of fruits) {
+  console.log(fruit);
+}
+
+fruits.includes("banana");   // true
+fruits.indexOf("mango");     // 2 (index), or -1 if not found
