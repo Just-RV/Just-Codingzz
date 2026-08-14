@@ -240,54 +240,54 @@
 // fruits.includes("banana");   // true
 // fruits.indexOf("mango");     // 2 (index), or -1 if not found
 
-const user = {
-  name: "RV",
-  age: 21,
-  isStudent: true
-};
+// const user = {
+//   name: "RV",
+//   age: 21,
+//   isStudent: true
+// };
 
-user.nmae;
-console.log(typeof user["age"]);
-console.log(typeof user.age)
+// user.nmae;
+// console.log(typeof user["age"]);
+// console.log(typeof user.age)
 
-const key = "name";
-user[key];          // "RV" — dynamic key, only possible with brackets
-user.key;           // undefined — dot notation looks for a literal property called "key"
+// const key = "name";
+// user[key];          // "RV" — dynamic key, only possible with brackets
+// user.key;           // undefined — dot notation looks for a literal property called "key"
 
-const badKey = "user-name";
-user["user-name"];  // works
-user.user - name;      // syntax error — dot notation can't handle hyphens/spaces in keys
-
-
-const user = {
-  name: "RV",
-  address: {
-    city: "Ahmedabad",
-    pincode: 380001
-  }
-};
-
-user.address.city;   // "Ahmedabad"
+// const badKey = "user-name";
+// user["user-name"];  // works
+// user.user - name;      // syntax error — dot notation can't handle hyphens/spaces in keys
 
 
-const user = {
-  name: "RV",
-  greet: function () {
-    return "Hi, I'm " + this.name;
-  },
-  // shorthand — same thing, modern syntax:
-  greetShort() {
-    return "Hi, I'm " + this.name;
-  }
-};
+// const user = {
+//   name: "RV",
+//   address: {
+//     city: "Ahmedabad",
+//     pincode: 380001
+//   }
+// };
 
-user.greet();   // "Hi, I'm RV"
+// user.address.city;   // "Ahmedabad"
 
-const user = { name: "RV", age: 21 };
 
-const { name, age } = user;
-console.log(name, age);   // "RV" 21
+// const user = {
+//   name: "RV",
+//   greet: function () {
+//     return "Hi, I'm " + this.name;
+//   },
+//   // shorthand — same thing, modern syntax:
+//   greetShort() {
+//     return "Hi, I'm " + this.name;
+//   }
+// };
 
-// instead of the old way:
-const name2 = user.name;
-const age2 = user.age;
+// user.greet();   // "Hi, I'm RV"
+
+// const user = { name: "RV", age: 21 };
+
+// const { name, age } = user;
+// console.log(name, age);   // "RV" 21
+
+// // instead of the old way:
+// const name2 = user.name;
+// const age2 = user.age;

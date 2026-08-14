@@ -41,19 +41,19 @@
 // console.log(car.descibe())
 
 
-const car = {
-  make: "Tesla",
-  model: "S",
-  year: 2012,
-  owner: {
-    name: "RV",
-    age: 19
+// const car = {
+//   make: "Tesla",
+//   model: "S",
+//   year: 2012,
+//   owner: {
+//     name: "RV",
+//     age: 19
 
-  },
+//   },
 
-  descibe: () => {
-    return `${this.year} , ${this.make} ${this.model}`;
-  }
-}
+//   descibe: () => {
+//     return `${this.year} , ${this.make} ${this.model}`;
+//   }
+// }
 
-console.log(car.descibe())
+// console.log(car.descibe())

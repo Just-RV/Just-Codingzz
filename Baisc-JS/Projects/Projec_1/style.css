@@ -1,0 +1,45 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px;
+  background: pink;
+}
+
+#Heading {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.Botton {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  background-color: cadetblue;
+  border: 10px;
+  border-color: blueviolet;
+}
+
+#Red {
+  background: red;
+}
+
+#White {
+  background: white;
+}
+
+#Yellow {
+  background: yellow;
+}
+
+#Black {
+  background: black;
+}

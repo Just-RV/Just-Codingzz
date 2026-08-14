@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM || Practicess</title>
+</head>
+
+<body>
+
+  <div class="Heollo_Div">
+    <h1 id="Hello">Hello worldssss</h1>
+  </div>
+
+  <lu id="Table-li">
+    <li id="First">fisrt on</li>
+    <li id="Second">second on</li>
+    <li id="Three">three on</li>
+    <li id="Four">four on</li>
+  </lu>
+
+  <lu class="Mark-Sheet">
+    <li id="101">RV - 50</li>
+    <li id="111">RD - 40</li>
+    <li id="121">RX - 70</li>
+    <li id="131">RT - 90</li>
+  </lu>
+
+  <script>
+    console.log("hellow")
+
+    const newMarks = document.querySelectorAll('.Mark-Sheet li');
+
+    newMarks.forEach(item => {
+      if (item.textContent.includes('40')) {
+        item.style.color = 'red';
+        item.style.fontWeight = 'bold';
+      } else {
+        item.style.color = 'green';
+      }
+    });
+  </script>
+</body>
+
+</html>

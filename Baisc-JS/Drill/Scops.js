@@ -1,17 +1,17 @@
-function Mul(){
-  let number = 4;
+// function Mul(){
+//   let number = 4;
 
- return function (){
+//  return function (){
 
-  number = number * number;
+//   number = number * number;
 
-  return number;
- };
+//   return number;
+//  };
 
-}
+// }
 
-const num = Mul();
-console.log(num())
-console.log(num())
+// const num = Mul();
+// console.log(num())
+// console.log(num())
 
 

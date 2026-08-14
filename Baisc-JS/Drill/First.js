@@ -60,14 +60,14 @@
 // }
 
 
-const score = [55, 90, 40, 78, 100];
+// const score = [55, 90, 40, 78, 100];
 
- console.log(score.filter(n => n >= 60));
+//  console.log(score.filter(n => n >= 60));
 
- console.log(score.map(n => n + 5));
+//  console.log(score.map(n => n + 5));
 
-console.log(score.find(n => n === 100));
+// console.log(score.find(n => n === 100));
 
-console.log(score.find(n => n === 999));
+// console.log(score.find(n => n === 999));
 
 
