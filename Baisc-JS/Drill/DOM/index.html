@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25,9 +25,17 @@
     <li id="111">RD - 40</li>
     <li id="121">RX - 70</li>
     <li id="131">RT - 90</li>
-  </lu>
+  </lu> -->
 
-  <script>
+<!-- <div class="conteiner">
+    <h2>Dynamic Item</h2>
+    <ul id="dynamic-list">
+      
+    </ul>
+  </div> -->
+
+
+<!-- <script>
     console.log("hellow")
 
     const newMarks = document.querySelectorAll('.Mark-Sheet li');
@@ -40,7 +48,130 @@
         item.style.color = 'green';
       }
     });
+  </script> -->
+<!-- </body>
+
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Creation Practice</title>
+</head>
+
+<body>
+
+  <h2>Course Schedule</h2>
+  <ul id="schedule-list">
+    <li>Math 101</li>
+  </ul>
+
+  <script>
+    // 1. Select the existing parent list on the page
+    const schedule = document.querySelector('#schedule-list');
+
+    // 2. Create element #1 and append it to the bottom
+    const itemBottom = document.createElement('li');
+    itemBottom.textContent = 'Physics 201';
+    itemBottom.style.color = 'blue';
+    schedule.appendChild(itemBottom);
+
+    // 3. Create element #2 and prepend it to the top
+    const itemTop = document.createElement('li');
+    itemTop.textContent = '🌟 Orientation';
+    itemTop.style.color = 'goldenrod';
+    itemTop.style.fontWeight = 'bold';
+    schedule.prepend(itemTop);
   </script>
+</body>
+
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1 id="tittle"> DOM basics bolte</h1>
+
+   <script>
+    const heading = document.querySelector('#title');
+
+    heading.classList.contains('highlight');
+
+    if (heading.classList.contains('highlight')) {
+      console.log("Heading is highlighted");
+    }
+
+  </script>
+
+
+</body>
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="Bigger-on" >
+    <div id="Smaller-on" >fire is on the way</div>
+  </div>
+
+  <ul id="List-on" >
+
+  </ul>
+  
+</body>
+</html> -->
+
+<!-- Practiceeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .highlight {
+      background: red;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div id="box">Original text</div>
+  <ul id="list">
+    <li>Existing Item</li>
+  </ul>
+  <input id="myInput" value="typed value" />
+
+
 </body>
 
 </html>
