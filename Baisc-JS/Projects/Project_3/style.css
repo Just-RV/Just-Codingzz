@@ -1,0 +1,27 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px;
+  background: rgb(36, 152, 154);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+label{
+  font-size: 25px;
+  border: #000;
+}
+
+#Timing{
+  height: 25px;
+  width: 90px;
+  background: #000;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
