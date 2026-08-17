@@ -24,7 +24,7 @@ body {
   width: 200px;
   margin: 20px;
   background-color: cadetblue;
-  border: 10px;
+  border-style: 10px;
   border-color: blueviolet;
 }
 
