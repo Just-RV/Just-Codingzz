@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 0px;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border: 20px;
+  border-color: black;
+}
+
+.Container {
+
+  background: #0cae9e;
+  padding: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.guessSubmit {
+  background: #0a575b;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+
+}
